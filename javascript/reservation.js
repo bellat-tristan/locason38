@@ -1,10 +1,10 @@
 function getDestination(){
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const destination = urlParams.get('destination');
-    document.getElementById("dest").innerHTML="Description : "+destination;
+    const Produit = urlParams.get('destination');
+    document.getElementById("dest").innerHTML=Produit;
 
-    return destination
+    return Produit
 
 }
 
@@ -48,7 +48,7 @@ async function getInformations(){
     document.getElementById("image_dest").setAttribute("src", img);
     document.getElementById("description_produit").innerHTML = description;
     document.getElementById("prix").innerHTML = "Prix par jour  : " + prix + "€";
-    disableCheckbox();
+    //disableCheckbox();
     reservation();
     
 }
