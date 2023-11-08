@@ -50,21 +50,15 @@ async function display(){
         valeurprix();
         let divs = document.getElementsByClassName("voyages");
         let prixMax = (document.getElementById("prixMax").value);
-        let montage = document.getElementById("montage").checked;
         console.log("c'est le " + prixMax);
     
         for (i in contenu_json){
-            var dejDest = true;
-
-
             if (divs[i].style.display == "none"){
-                if ((contenu_json[i].prix <= prixMax)  && (!(montage) || (montage==contenu_json[i].montage))) {
+                if ((contenu_json[i].prix <= prixMax)) {
                     divs[i].style.display = "flex";
                 }
             } else {
                 if (contenu_json[i].prix > prixMax){
-                    divs[i].style.display = "none";
-                } else if ((montage) && !(contenu_json[i].montage)){
                     divs[i].style.display = "none";
                 }
             }
