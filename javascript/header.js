@@ -14,9 +14,9 @@ function rechercher() {
     }
 }
 
-$(document).ready(function(){
-    if(location.href.split('/').pop() !="index.html")
-    {
-        document.getElementById("searchbar").remove();
-    }
-})
+// $(document).ready(function(){
+//     if(location.href.split('/').pop() !="index.html")
+//     {
+//         document.getElementById("searchbar").remove();
+//     }
+// })
