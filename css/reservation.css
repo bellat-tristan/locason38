@@ -202,8 +202,7 @@ body{
         transform: scale(1.3);
     }
 
-    #prix{
-        width: 100%;
+    .imgetform h3{
         margin: 0%;
         font-size: 20px;
         text-align: center;
