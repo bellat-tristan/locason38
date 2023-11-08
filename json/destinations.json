@@ -1,15 +1,15 @@
     [
 
-        { "id":1,"location":"Enceinte", "prix":100, "description":"je suis une enceinte", "montage":true, "img":"../img/sono.png", "lien":"../html/reservation.html?destination=Enceinte"},
-        { "id":2,"location":"Table de mixage", "prix":400, "description":"test de description", "montage":true, "img":"../img/table.png", "lien":"../html/reservation.html?destination=Table de mixage"},
-        { "id":2,"location":"caisson de basse", "prix":200, "description":"test de description", "montage":true, "img":"../img/sub.png", "lien":"../html/reservation.html?destination=caisson de basse"},
-        { "id":3,"location":"Enceinte et Table de mixage", "prix":500, "description":"test de description", "montage":true, "img":"../img/enseintes.jpg", "lien":"../html/reservation.html?destination=Enceinte et Table de mixage"},
-        { "id":4,"location":"Ecrans geant", "prix":150, "description":"test de description", "montage":true, "img":"../img/ecran.jpg", "lien":"../html/reservation.html?destination=Ecrans geant"},
-        { "id":5,"location":"Ecrans geant et Enceinte", "prix":20, "description":"test de description", "montage":false, "img":"../img/ecran.jpg", "lien":"../html/reservation.html?destination=Ecrans geant et Enceinte"},
-        { "id":6,"location":"Lumieres de soirées", "prix":150, "description":"test de description", "montage":true, "img":"../img/lumiere.png", "lien":"../html/reservation.html?destination=Lumieres de soirées"},
-        { "id":7,"location":"Machine à mousse", "prix":200, "description":"test de description", "montage":true, "img":"../img/MachineMousse.jpg", "lien":"../html/reservation.html?destination=Machine à mousse"},
-        { "id":8,"location":"Machine à fumée", "prix":150, "description":"test de description", "montage":true, "img":"../img/MachineFumée.jpg", "lien":"../html/reservation.html?destination=Machine à fumée"},
-        { "id":9,"location":"Materiel complet de soirée", "prix":600, "description":"test de description", "montage":true, "img":"../img/kit.png", "lien":"../html/reservation.html?destination=Materiel complet de soirée"},
-        { "id":10,"location":"Préstation", "prix":1000, "description":"test de description", "montage":true, "img":"../img/presta.png", "lien":"../html/reservation.html?destination=Préstation"}
+        { "id":1,"location":"Enceinte", "prix":100, "description":"je suis une enceinte", "img":"../img/sono.png", "lien":"../html/reservation.html?destination=Enceinte"},
+        { "id":2,"location":"Table de mixage", "prix":400, "description":"Mise a la location d'une magnifique table de mixage avec plein de boutons et des lumieres trop bien <br> je suis tres content de mon site", "img":"../img/table.png", "lien":"../html/reservation.html?destination=Table de mixage"},
+        { "id":2,"location":"caisson de basse", "prix":200, "description":"test de description", "img":"../img/sub.png", "lien":"../html/reservation.html?destination=caisson de basse"},
+        { "id":3,"location":"Enceinte et Table de mixage", "prix":500, "description":"test de description", "img":"../img/enseintes.jpg", "lien":"../html/reservation.html?destination=Enceinte et Table de mixage"},
+        { "id":4,"location":"Ecrans geant", "prix":150, "description":"test de description", "img":"../img/ecran.jpg", "lien":"../html/reservation.html?destination=Ecrans geant"},
+        { "id":5,"location":"Ecrans geant et Enceinte", "prix":20, "description":"test de description", "img":"../img/ecran.jpg", "lien":"../html/reservation.html?destination=Ecrans geant et Enceinte"},
+        { "id":6,"location":"Lumieres de soirées", "prix":150, "description":"test de description", "img":"../img/lumiere.png", "lien":"../html/reservation.html?destination=Lumieres de soirées"},
+        { "id":7,"location":"Machine à mousse", "prix":200, "description":"test de description", "img":"../img/MachineMousse.jpg", "lien":"../html/reservation.html?destination=Machine à mousse"},
+        { "id":8,"location":"Machine à fumée", "prix":150, "description":"test de description", "img":"../img/MachineFumée.jpg", "lien":"../html/reservation.html?destination=Machine à fumée"},
+        { "id":9,"location":"Materiel complet de soirée", "prix":600, "description":"test de description", "img":"../img/kit.png", "lien":"../html/reservation.html?destination=Materiel complet de soirée"},
+        { "id":10,"location":"Préstation", "prix":1000, "description":"test de description", "img":"../img/presta.png", "lien":"../html/reservation.html?destination=Préstation"}
 
     ]
