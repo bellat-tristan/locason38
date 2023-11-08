@@ -11,21 +11,20 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="../javascript/navbarAndFooter.js"></script>
         <script src="../javascript/index.js"></script>
-        </head>
+    </head>
 
-        <body class="indexbody">
+    <body class="indexbody">
 
             <header onload="headerAndFooter()" id="navbar">    
             </header>
         <div class="form_filtre">
-                <h3>Trier par :</h3>
                 <p>
                     <label for="prix" id="prix">
-                        Prix Maximum
+                        Prix Mamimum :
                     </label>
                     <input id="prixMax" onchange="filter()" type="range" value="1000" placeholder="100" min="0" max="1000" step="2">
                     <label id="demo">1000€</label>
-                    <input id="montage" onchange="filter()" type="checkbox" name="montage" id="montage"/> <label for="montage">Montage/Démontage</label>
+                    <!--<input id="montage" onchange="filter()" type="checkbox" name="montage" id="montage"/> <label for="montage">Montage/Démontage</label>-->
                 </p>    
                     
             </div>
