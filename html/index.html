@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Locason 38</title>
+        <link rel="icon" href="../img/haut_parleur.png" type="image/png">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="../javascript/navbarAndFooter.js"></script>
+        <script src="../javascript/index.js"></script>
+        </head>
+
+        <body class="indexbody">
+
+            <header onload="headerAndFooter()" id="navbar">    
+            </header>
+        <div class="form_filtre">
+                <h3>Trier par :</h3>
+                <p>
+                    <label for="prix" id="prix">
+                        Prix Maximum
+                    </label>
+                    <input id="prixMax" onchange="filter()" type="range" value="1000" placeholder="100" min="0" max="1000" step="2">
+                    <label id="demo">1000€</label>
+                    <input id="montage" onchange="filter()" type="checkbox" name="montage" id="montage"/> <label for="montage">Montage/Démontage</label>
+                </p>    
+                    
+            </div>
+        <div class="indexGrid">
+            
+            <main id="main">
+                <div id="destinationGrid" class="destinationGrid">
+                    <template id="mon_template" > <!--pas affiché par le nav, on va faire ça en js
+                        le defer permet de n'exécuter le script qu'après avoir fini de charger la page-->
+                        <div class="voyages" class="destination">
+                            <a href="{{lien}}"><img id="imageDest" class="imageDestination" src=""></a>
+                            <h2 class="loc">{{destination}}</h2>
+                            <p>{{prix}} €</p>
+                        </div>
+                    </template>
+                </div>
+            </main>
+        </div>
+
+        <footer id="footer">
+        </footer>
+        
+    </body>
+
+
+
+</html>

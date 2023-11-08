@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Confirmation de Commande</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/confirmation.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="../javascript/navbarAndFooter.js"></script>
+        <script src='../javascript/confirmation.js'></script>
+    </head>
+
+    <body onload="getInfoPerso()">
+        <header id="navbar" onload="headerAndFooter()">    
+        </header>
+        
+        <h2>Confirmation de commande</h2>
+        <div id="voyages">
+            <template id="mon_template">
+                <h3 id="dest" class="nom_destination">{{ville}}</h3>
+                <div id="Achat" class="Achat">
+        
+                        <img id ="image_dest" class="img_lieu" src="../img/Lyon.jpg">
+                        <div class="info_achat">
+                        <p id="nb_adult">Nombre de lots : {{nbAdult}}</p>
+                        <p id="nb_enfant">Nombre de produits suplementaire : {{nbEnfant}}</p>
+                        <p id="lunch">Assurance : {{lunch}}</p>
+                        <p id="date_arrive">Date de location : {{dateArrive}}</p>
+                        <p id="date_fin">Date de retour : {{dateFin}}</p>
+                        <p id="nb_jour">Nombre total de jours : {{nbJour}}</p>
+                        <p id="sous_total">Sous total : {{soustotal}}</p>
+
+                </div>
+            </template>
+        </div>
+        <div id="divprix">
+            <h4 id="prixconfirmation"></h4>
+        </div>
+        <h4 id="infoperso">Vos informations personnelles</h4>
+        <div id="divform">
+
+            <div id="resultatform">
+                <p class="texte_formulaire" id="nom">Nom</p>
+                <p class="texte_formulaire" id="mail">Adresse mail :</p>
+                <p class="texte_formulaire" id="num_portable" >Numero de téléphone portable :</p>
+                <p class="texte_formulaire" id="num_fix">Numero de telephone fixe :</p>
+                <p class="texte_formulaire" id="adress">Adresse de facturation :</p>
+                <p class="texte_formulaire" id="com">Commentaires :</p>
+                <button type="submit"><a id="mailto" href="">Nous contacter par mail</a></button>
+            </div>
+            <div id="footerdivform">
+                <h4>Récuperation de vos données personnelles</h4>
+                <p>Hinc ille commotus ut iniusta perferens et indigna praefecti custodiam protectoribus mandaverat fidis.
+                     quo conperto Montius tunc quaestor acer quidem sed ad lenitatem propensior, consulens in commune advocatos 
+                     palatinarum primos scholarum adlocutus est mollius docens nec decere haec fieri nec prodesse addensque vocis 
+                     obiurgatorio sonu quod si id placeret, post statuas Constantii deiectas super adimenda vita praefecto 
+                     conveniet securius cogitari.
+                    
+                    Horum adventum praedocti speculationibus fidis rectores militum tessera data sollemni armatos omnes celeri 
+                    eduxere procursu et agiliter praeterito Calycadni fluminis ponte, cuius undarum magnitudo murorum adluit turres, 
+                    in speciem locavere pugnandi. neque tamen exiluit quisquam nec permissus est congredi. formidabatur enim flagrans 
+                    vesania manus et superior numero et ruitura sine respectu salutis in ferrum.
+                    
+                    Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem 
+                    intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis 
+                    tunc Honoratus fixa constantia restitisset.
+                    </p>
+            </div>
+        </div>
+        <footer id="footer">
+        </footer>
+
+
+
+</html>

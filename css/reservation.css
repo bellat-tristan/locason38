@@ -1,0 +1,155 @@
+.img_lieu {
+    height: 30%;
+    width: 30%;
+}
+body{
+    background-color: black;
+    margin-top: 130px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#prix{
+    background-color: rgb(204, 204, 204);
+    margin: 0px;
+    font-size: 20px;
+}
+
+#resetButton{
+    font-size: 20px;
+}
+
+#bonton_confiramtion_reservation{
+    font-size: 20px;
+}
+
+.formreservation div {
+    color:black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    text-align: start;
+    justify-content: start;
+}
+
+.totalform{
+    background-color: rgb(204, 204, 204);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.imgetform{
+    background-color: rgb(204, 204, 204);
+    color:black;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.imgetform img{
+    transition: transform .4s;
+    height: 110%;
+    object-fit: scale-down;
+    width: 30%;
+}
+.imgetform img:hover{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
+}
+#dest {
+    color: white;
+    background-color: rgb(83, 71, 71);
+    text-align: center;
+    font-size: xx-large;
+    margin: 0px;
+}
+
+#desc{
+    background-color:rgb(204, 204, 204);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+
+#desc h2{
+    background-color:rgb(83, 71, 71);
+    margin-top: 0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
+
+.description{
+    background-color:rgb(204, 204, 204);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+}
+
+#explication{
+    margin-left: 5%;
+    width: 40%;
+    text-align: center;
+    background-color:rgb(167, 167, 167);
+    border: 1px solid black;
+    margin-top: 1%;
+}
+
+#explication p{
+    margin: 2%;
+}
+
+.description .blockdesc{
+    margin-top: 1%;
+    height: 270px;
+    width: 800px;
+    margin-right: 2%;
+    display: flex;
+}
+
+.description .blockdesc div{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(167, 167, 167);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img_block{
+    min-height: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    max-height: 90px;
+    object-fit: contain;
+    margin-top: 5%;
+}
+
+.description .blockdesc div h6{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+
+}
+.description .blockdesc div p{
+    display: flex;
+    text-align-last: center;
+    font-size: 12px;
+    height: 90%;
+    width: 80%;
+
+}
