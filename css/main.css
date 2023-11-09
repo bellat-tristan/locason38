@@ -2,7 +2,7 @@ header{
     background-color: black;
     background-size: 100%;
     width: 100%;
-    height: 30%;
+    height: 50%;
     /*display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +20,8 @@ header{
     justify-content: center;
 }
 
+
+
 @media screen and (min-width: 50em) {
     #searchbar{
         height: 25%;
@@ -33,6 +35,19 @@ header{
         -webkit-transform: scale(1.3); /* Safari 3-8 */
         transform: scale(1.3);
     }
+
+    #imageInsta{
+        width: 3%;
+        height: 3%;
+    }
+
+    .webTitleBox{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        height: 110px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 50em) {
@@ -42,9 +57,22 @@ header{
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    #imageInsta{
+        width: 8%;
+        height: 8%;
+    }
+
+    .webTitleBox{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        height: 70px;
+        width: 100%;
+    }
 }
 .headerImage{
-    height: 30%;
+    height: 50%;
     width: 50%;
     margin: 5%;
     margin-top: auto;
@@ -65,16 +93,10 @@ header{
     text-decoration: underline;
 }
 
-.webTitleBox{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    height: 100%;
-    width: 100%;
-}
+
 
 footer{
-    margin-top: 1%;
+    margin-top: 0%;
     clear: both;
     display: block;
     background-color: black;
