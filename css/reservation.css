@@ -56,6 +56,23 @@ body{
         width: 100%;
     }
 
+    #Reserver{
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        animation-duration: 1s;
+        animation-name: clignoter;
+        animation-iteration-count: infinite;
+        transition: none;
+    }
+
+     @keyframes clignoter {
+       0%   { color: black; }
+       40%   {color: rgb(156, 56, 56); }
+       100% { color: rgb(250, 4, 4); }
+     }
+
     .description h2{
         display: none;
     }
@@ -192,6 +209,23 @@ body{
         font-size: 1.2rem;
     }
 
+    #Reserver{
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        margin-bottom: 5%;
+        animation-duration: .8s;
+        animation-name: clignoter;
+        animation-iteration-count: infinite;
+        transition: none;
+    }
+
+     @keyframes clignoter {
+       0%   { color: black; }
+       40%   {color: rgb(156, 56, 56); }
+       100% { color: rgb(250, 4, 4); }
+     }
 
     .description h2{
         background-color: rgb(83, 71, 71);
@@ -235,7 +269,7 @@ body{
         height: 400px;
         width: 100%;
         display: grid;
-        grid-template-rows: 80% 20%;
+        grid-template-rows: 80% 10% 10%;
         font-size: 25px;
     } 
 
