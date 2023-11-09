@@ -71,8 +71,7 @@ aside{
     align-items: center;
     justify-content: center;
     background-color: white;
-    -webkit-transition: color;
-    transition: color;
+    
     border-radius: 5%;
     
 }
@@ -81,11 +80,16 @@ aside{
     height: 90%;
     width: 90%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: black;
+    text-decoration: none;
+    -webkit-transition: color;
+    transition: color;
 }
 @media screen and (min-width: 50em) {
-    .voyages p{
+    .voyages a p{
         font-size: 2rem;
         display: flex;
         align-items: center;
@@ -105,15 +109,14 @@ aside{
     }
 
     .destinationGrid{
-        background-color: rgb(204, 204, 204);
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         margin-left: 3%;
         margin-right: 3%; 
     }
 
-    .voyages h2{
-        text-decoration: underline;
+    .voyages a h2{
+        text-decoration: none;
         font-size: 2rem;
         display: flex;
         object-fit: scale-down;
@@ -131,7 +134,7 @@ aside{
 }
 
 @media screen and (max-width: 50em) {
-    .voyages p{
+    .voyages a p{
         font-size: large;
         display: flex;
         align-items: center;
@@ -158,8 +161,8 @@ aside{
         margin-right: 3%; 
     }
 
-    .voyages h2{
-        text-decoration: underline;
+    .voyages a h2{
+        text-decoration: none;
         font-size: 1rem;
         display: flex;
         object-fit: scale-down;
@@ -167,6 +170,7 @@ aside{
         justify-content: center;
         margin-left: 5%;
         margin-right: 5%;
+        color: black;
     }
 
     #prixMax{
@@ -178,7 +182,7 @@ aside{
 
 
 
-.voyages:hover {
+.voyages:hover a{
     color: #FF4E19;
 }
 
@@ -190,7 +194,7 @@ aside{
     margin-right: 5%;
 }
 
-#prix{
+.form_filtre label{
     display: flex;
     align-items: center;
     justify-content: center;
