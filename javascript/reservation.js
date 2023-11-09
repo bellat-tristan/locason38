@@ -3,9 +3,8 @@ function getDestination(){
     const urlParams = new URLSearchParams(queryString);
     const Produit = urlParams.get('destination');
     document.getElementById("dest").innerHTML=Produit;
-
+    document.getElementById("Reserver").setAttribute("href", "mailto:test@bidule.fr?subject=Demande de réservation&body=Article : "+Produit+"%0ADate de reservation :%0ANom :%0APrenom :%0ANumero de téléphone :");
     return Produit
-
 }
 
 function disableCheckbox(){
